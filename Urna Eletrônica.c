@@ -46,7 +46,7 @@ int main(){
 	
 	do{
 		Menu();
-		printf("\t\t\t\t -> Op��o: ");
+		printf("\t\t\t\t -> Opção: ");
 		scanf("%d", &opcao);
 			
 		if(opcao == 1){
@@ -177,7 +177,7 @@ int main(){
 		} else if(opcao == 4){
 			break;
 		
-	 	//OP��O SECRETA, número da sorte de Livia após o de Leonardo.	
+	 	//OPÇÃO SECRETA, número da sorte de Livia após o de Leonardo.	
 		} else if(opcao == 1229){
 			strcpy(senha, "");
 			LimpaTela();
